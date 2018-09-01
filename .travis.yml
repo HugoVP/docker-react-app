@@ -6,4 +6,4 @@ before_install:
   - docker build -t hugovp/docker-react-app -f Dockerfile.dev .
 
 script:
-  - docker run hugovp/docker-react-app" npm run test -- --coverage
+  - docker run hugovp/docker-react-app npm run test -- --coverage
